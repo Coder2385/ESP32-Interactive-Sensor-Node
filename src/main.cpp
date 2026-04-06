@@ -29,7 +29,7 @@ bool buttonPressed = false;
 WebServer server(80);
 
 // Generates the HTML webpage with sensor values (temperature & humidity)
-String creatWebPage(float temperatuur, float vochtigheid) {
+String creatWebPage(float temperature, float humidity) {
   String html = "<!DOCTYPE html><html><head>";
   html += "<meta charset='UTF-8'>";
   html += "<title>ESP32 Sensor</title>";
@@ -39,8 +39,8 @@ String creatWebPage(float temperatuur, float vochtigheid) {
   // Toon sensorwaarden in een nette layout
   html += "<h2>ESP32 Sensor Data</h2>";
   html += "<pre>";
-  html += "Temperature: " + String(temperatuur, 2) + " &deg;C\n";
-  html += "Humidity:    " + String(vochtigheid, 2) + " %";
+  html += "Temperature: " + String(temperature, 2) + " &deg;C\n";
+  html += "Humidity:    " + String(humidity, 2) + " %";
   html += "</pre>";
 
   html += "</body></html>";
