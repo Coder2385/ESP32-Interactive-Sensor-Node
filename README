@@ -1,6 +1,4 @@
-# ESP32 Local Sensor Node
-
-NOTE!: THIS IS AN EXPANSION OF ESP32-LOCAL-SENSOR-NODE
+# ESP32-Interactive-Sensor-Node
 
 A standalone IoT system that measures environmental data (temperature & humidity) and displays it live on an OLED screen and in a web browser — **without internet or external cloud services**.  
 Perfect for beginners who want to visualize sensor data locally over WiFi.
@@ -36,7 +34,8 @@ This is a common limitation in embedded displays — not a bug!
 - SSD1306 OLED display (128x64, I²C)
 - Breadboard and jumper wires
 - Micro-USB cable
-
+- 1x pushbutton
+- 1x 220 Ohm Resistor
 ---
 
 ## 🔌 Wiring (I²C Bus)
