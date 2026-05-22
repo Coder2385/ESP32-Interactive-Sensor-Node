@@ -1,6 +1,6 @@
 # ESP32-Interactive-Sensor-Node
 
-Note!: This is an extension of ESP320-local-sensor-node
+Note!: This is an expansion of ESP320-local-sensor-node
 
 A standalone IoT system that measures environmental data (temperature & humidity) and displays it live on an OLED screen and in a web browser — **without internet or external cloud services**.  
 Perfect for beginners who want to visualize sensor data locally over WiFi.
